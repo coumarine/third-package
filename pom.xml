@@ -9,5 +9,12 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub coumarine Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/coumarine/third-package</url>
+        </repository>
+    </distributionManagement>
 
 </project>
